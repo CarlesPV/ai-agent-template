@@ -1,0 +1,61 @@
+# --- Dependencias y Entornos (PESADOS) ---
+node_modules/
+bower_components/
+vendor/
+venv/
+.env/
+env/
+
+# --- Binarios y Ejecutables ---
+*.exe
+*.dll
+*.so
+
+# --- Carpetas de Compilación (BASURA DE TOKENS) ---
+dist/
+build/
+out/
+.next/
+.cache/
+
+# --- Archivos de Bloqueo (GIGANTES Y POCO ÚTILES) ---
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+composer.lock
+
+# --- Archivos de Configuración Sensible (SEGURIDAD) ---
+.env
+.env.local
+.env.production
+.env.development
+*.pem
+*.key
+certs/
+secrets/
+
+# --- Multimedia y Assets (EL AGENTE NO LOS VE) ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+*.pdf
+*.zip
+*.tar.gz
+
+# --- Bases de datos locales ---
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Logs y Temporales ---
+*.log
+logs/
+tmp/
+.temp/
+
+# --- Configuraciones locales de IDE ---
+.vscode/
+.idea/

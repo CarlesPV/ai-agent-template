@@ -1,0 +1,24 @@
+# Dependencias y Entornos
+node_modules/
+venv/
+env/
+.env/
+
+# Archivos de entorno y seguridad
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# Compilación y temporales
+dist/
+build/
+.cache/
+*.log
+tmp/
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.db
